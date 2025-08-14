@@ -1,0 +1,21 @@
+name: llm
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python
+  - pip
+  - transformers
+  - datasets
+  - matplotlib
+  - pandas
+  - jupyter
+  - numpy
+  - pytorch
+  - ollama # For ollama server
+  - pip:
+    - transformers
+    - huggingface-hub
+    - datasets
+    - peft
+    - ollama # For ollama python wrapper
