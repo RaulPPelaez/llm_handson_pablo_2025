@@ -7,16 +7,22 @@ The notebooks are already executed, so you can see the results via the github in
 
 Clone the repository:
 ```bash
-git clone https://github.com/RaulPPelaez/llm_handson_pablo_2025
-cd llm_handson_pablo_2025
+$ git clone https://github.com/RaulPPelaez/llm_handson_pablo_2025
+$ cd llm_handson_pablo_2025
 ```
 Dependencies can be installed via [conda](github.com/conda-forge/miniforge) via the `environment.yml` file:
 
 ```bash
-conda env create 
+$ conda env create 
 ```
 
 Open the notebooks in your favorite Jupyter environment, such as [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) or [VSCode](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
+
+The LoRA notebook might use a locked in model from Hugging Face, so you might need to log in to your Hugging Face account via the CLI:
+```bash
+$ huggingface-cli login
+```
+Some models require you to accept a licence agreement, which you can do via the Hugging Face website. The models will error out with a message that tells you how to do so.
 
 ## Hardware requirements
 
